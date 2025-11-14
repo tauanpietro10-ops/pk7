@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PK7 TROCAS • Brainrots</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f0f0f;
+            color: #fff;
+        }
+        header {
+            background: #111;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 0 25px #00ff00;
+        }
+        header h1 {
+            font-size: 24px;
+            color: #00ff00;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+        .title {
+            text-align: center;
+            font-size: 35px;
+            margin-top: 20px;
+            color: #00ff00;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .card {
+            background: #1a1a1a;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 15px #00ff00;
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 25px #00ff00;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .card h3 {
+            margin: 15px 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #00ff00;
+            color: #000;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+        .btn:hover {
+            background: #55ff55;
+        }
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            text-align: center;
+            background: #111;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>PK7 • TROCAS DE BRAINROT</h1>
+</header>
+
+<div class="container">
+    <h2 class="title">Trocas Disponíveis</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://i.imgur.com/4ZgZ0cy.png" alt="brainrot">
+            <h3>Troca: 10ms → 20ms</h3>
+            <a class="btn" href="#">Solicitar Troca</a>
+        </div>
+
+        <div class="card">
+            <img src="https://i.imgur.com/4ZgZ0cy.png" alt="brainrot">
+            <h3>Troca: 20ms → 40ms</h3>
+            <a class="btn" href="#">Solicitar Troca</a>
+        </div>
+
+        <div class="card">
+            <img src="https://i.imgur.com/4ZgZ0cy.png" alt="brainrot">
+            <h3>Troca: 40ms → 100ms</h3>
+            <a class="btn" href="#">Solicitar Troca</a>
+        </div>
+
+        <div class="card">
+            <img src="https://i.imgur.com/4ZgZ0cy.png" alt="brainrot">
+            <h3>Troca: 60ms → 100ms</h3>
+            <a class="btn" href="#">Solicitar Troca</a>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    PK7 • Sistema de Trocas de Brainrot — 2025
+</footer>
+
+</body>
+</html>
